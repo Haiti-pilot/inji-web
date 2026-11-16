@@ -20,7 +20,7 @@ export const LanguagesSupported: LanguageObject[] = [
     {label: "Français", value: 'fr'}
 ]
 
-export const defaultLanguage = window._env_.DEFAULT_LANG;
+export const defaultLanguage = "fr";
 
 const selected_language = AppStorage.getItem(AppStorage.SELECTED_LANGUAGE);
 i18n
